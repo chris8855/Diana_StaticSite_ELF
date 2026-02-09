@@ -3,231 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diana Ventura - Languages Teacher</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
-
-        .container {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-            max-width: 700px;
-            overflow: hidden;
-        }
-
-        .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 50px 30px;
-            text-align: center;
-        }
-
-        .header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            font-weight: 700;
-        }
-
-        .header p {
-            font-size: 1.1em;
-            opacity: 0.95;
-            margin-bottom: 5px;
-        }
-
-        .tagline {
-            font-size: 0.95em;
-            opacity: 0.85;
-            font-style: italic;
-        }
-
-        .content {
-            padding: 40px 30px;
-        }
-
-        .intro {
-            text-align: center;
-            margin-bottom: 35px;
-            font-size: 1.05em;
-            color: #555;
-            line-height: 1.8;
-        }
-
-        .services {
-            background: #f8f9fa;
-            padding: 25px;
-            border-radius: 8px;
-            margin-bottom: 35px;
-        }
-
-        .services h2 {
-            color: #667eea;
-            margin-bottom: 20px;
-            font-size: 1.4em;
-        }
-
-        .service-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 15px;
-            padding-bottom: 15px;
-            border-bottom: 1px solid #e0e0e0;
-        }
-
-        .service-item:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
-
-        .checkmark {
-            color: #667eea;
-            font-weight: bold;
-            margin-right: 15px;
-            font-size: 1.2em;
-            flex-shrink: 0;
-        }
-
-        .service-text {
-            color: #555;
-            font-size: 0.95em;
-        }
-
-        .contact {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 30px;
-            border-radius: 8px;
-            text-align: center;
-        }
-
-        .contact h2 {
-            margin-bottom: 20px;
-            font-size: 1.3em;
-        }
-
-        .contact-item {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 15px;
-            font-size: 1.05em;
-        }
-
-        .contact-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .contact-icon {
-            margin-right: 12px;
-            font-size: 1.3em;
-        }
-
-        .contact-link {
-            color: white;
-            text-decoration: none;
-            transition: opacity 0.3s;
-        }
-
-        .contact-link:hover {
-            opacity: 0.8;
-        }
-
-        .footer {
-            background: #f8f9fa;
-            padding: 20px;
-            text-align: center;
-            font-size: 0.9em;
-            color: #666;
-            border-top: 1px solid #e0e0e0;
-        }
-
-        .footer p {
-            margin: 0;
-            font-style: italic;
-        }
-
-        @media (max-width: 600px) {
-            .header h1 {
-                font-size: 2em;
-            }
-
-            .content {
-                padding: 25px 20px;
-            }
-
-            .intro {
-                font-size: 0.95em;
-            }
-        }
-    </style>
+    <title>Diana Ventura - ESL Teacher</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Diana Ventura</h1>
-            <p>Languages Teacher</p>
-            <p>Spanish Native Speaker | ESL Teacher</p>
-            <p class="tagline">Learn with confidence – languages made accessible and enjoyable</p>
-        </div>
-
-        <div class="content">
-            <div class="intro">
-                <p><strong>Do you want to improve your Spanish or English as a Second Language?</strong></p>
-                <p style="margin-top: 15px;">I offer supportive, personalised lessons tailored to your level and goals.</p>
-            </div>
-
-            <div class="services">
-                <h2>Services Offered</h2>
-                <div class="service-item">
-                    <span class="checkmark">✔</span>
-                    <span class="service-text">Spanish for beginners & advanced learners</span>
-                </div>
-                <div class="service-item">
-                    <span class="checkmark">✔</span>
-                    <span class="service-text">English as a Second Language (ESL)</span>
-                </div>
-                <div class="service-item">
-                    <span class="checkmark">✔</span>
-                    <span class="service-text">Clear explanations & practical communication</span>
-                </div>
-                <div class="service-item">
-                    <span class="checkmark">✔</span>
-                    <span class="service-text">Friendly and professional approach</span>
-                </div>
-            </div>
-
-            <div class="contact">
-                <h2>Get In Touch</h2>
-                <div class="contact-item">
-                    <span class="contact-icon">📞</span>
-                    <a href="tel:07494182489" class="contact-link">07494 182489</a>
-                </div>
-                <div class="contact-item">
-                    <span class="contact-icon">✉️</span>
-                    <a href="mailto:dianafrancesca@hotmail.com" class="contact-link">dianafrancesca@hotmail.com</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer">
-            <p>© 2026 Diana Ventura - Languages Teacher</p>
-        </div>
-    </div>
+    <header>
+        <h1>Diana Ventura</h1>
+        <h2>Professional English as a Second Language Teacher</h2>
+    </header>
+    <section id="summary">
+        <h3>Professional Summary</h3>
+        <p>With over 13 years of ESL teaching experience, I am dedicated to fostering a supportive and inclusive learning environment. I hold a PGCE in Modern Foreign Languages from Goldsmiths University of London.</p>
+    </section>
+    <section id="experience">
+        <h3>Work Experience</h3>
+        <ul>
+            <li><strong>PGCE MFL Trainee</strong> at Harris Invictus Academy Croydon</li>
+            <li><strong>English Teacher</strong> at Universidad Peruana de Ciencias Aplicadas</li>
+            <li><strong>ESOL Instructor</strong> at EB Education Services Limited</li>
+            <li><strong>English Second Language Teacher</strong> at ALPADIA Language Schools</li>
+        </ul>
+    </section>
+    <section id="education">
+        <h3>Education</h3>
+        <ul>
+            <li>PGCE and Subject Knowledge Enhancement in French</li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h3>Skills</h3>
+        <ul>
+            <li>Expertise in IELTS/Cambridge exam preparation</li>
+            <li>Proficient in CLIL methodologies</li>
+            <li>Integration of digital tools in language learning</li>
+            <li>Fluent in Spanish and English, with basic French proficiency</li>
+        </ul>
+    </section>
+    <footer>
+        <p>Contact: diana.ventura@example.com</p>
+        <p>Last updated on 2026-02-09 20:57:27</p>
+    </footer>
 </body>
 </html>
